@@ -8,7 +8,7 @@ const validUrl = require("valid-url")
 app.use(bodyParser.urlencoded({extended: false}))
 
 // Basic Configuration
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 app.use(cors());
 
