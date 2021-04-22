@@ -19,6 +19,12 @@ app.get('/api/hello', function(req, res) {
   res.json({ greeting: 'hello API' });
 });
 
+app.post('/api/shorturl', function(req, res){
+  res.json()
+})
+
 app.listen(port, function() {
   console.log(`Listening on port ${port}`);
 });
+//go to http://localhost:3000
+
